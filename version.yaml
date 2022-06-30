@@ -1,0 +1,74 @@
+console:
+  image:
+    name: public.ecr.aws/megazone/spaceone/console
+    version: 1.9.7.11
+
+console-api:
+  image:
+    name: public.ecr.aws/megazone/spaceone/console-api
+    version: 1.9.7.2
+
+identity:
+  image:
+    name: public.ecr.aws/megazone/spaceone/identity
+    version: 1.9.7.3
+
+secret:
+  image:
+    name: public.ecr.aws/megazone/spaceone/secret
+    version: 1.9.7.1
+
+repository:
+  image:
+    name: public.ecr.aws/megazone/spaceone/repository
+    version: 1.9.7.1
+
+plugin:
+  image:
+    name: public.ecr.aws/megazone/spaceone/plugin
+    version: 1.9.7.2
+
+config:
+  image:
+    name: public.ecr.aws/megazone/spaceone/conf
+    version: 1.9.7.1
+
+inventory:
+  image:
+    name: public.ecr.aws/megazone/spaceone/inventory
+    version: 1.9.7.3
+
+monitoring:
+  image:
+    name: public.ecr.aws/megazone/spaceone/monitoring
+    version: 1.9.7.1
+
+statistics:
+  image:
+    name: public.ecr.aws/megazone/spaceone/statistics
+    version: 1.9.7.1
+
+billing:
+  image:
+    name: public.ecr.aws/megazone/spaceone/billing
+    version: 1.9.7
+
+cost-analysis:
+  image:
+    name: public.ecr.aws/megazone/spaceone/cost-analysis
+    version: 1.9.7.1
+
+notification:
+  image:
+    name: public.ecr.aws/megazone/spaceone/notification
+    version: 1.9.7.1
+
+board:
+  image:
+    name: spaceone/board
+    version: 1.9.7
+
+supervisor:
+  image:
+    name: public.ecr.aws/megazone/spaceone/supervisor
+    version: 1.9.7
