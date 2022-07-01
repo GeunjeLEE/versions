@@ -48,11 +48,6 @@ statistics:
     name: public.ecr.aws/megazone/spaceone/statistics
     version: 1.9.7.1
 
-billing:
-  image:
-    name: public.ecr.aws/megazone/spaceone/billing
-    version: 1.9.7
-
 cost-analysis:
   image:
     name: public.ecr.aws/megazone/spaceone/cost-analysis
@@ -65,7 +60,7 @@ notification:
 
 board:
   image:
-    name: spaceone/board
+    name: public.ecr.aws/megazone/spaceone/board
     version: 1.9.7
 
 supervisor:
