@@ -1,7 +1,7 @@
 board:
   image:
     name: public.ecr.aws/megazone/spaceone/board
-    version: latest
+    version: v1.2.0
 config:
   image:
     name: public.ecr.aws/megazone/spaceone/config
